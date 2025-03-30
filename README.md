@@ -86,33 +86,7 @@ Create a `.github/workflows/ci.yml` file:
 ```sh
 mkdir -p .github/workflows
 nano .github/workflows/ci.yml
-```
-Add the following content for automated testing and deployment:
-```yaml
-name: CI/CD Pipeline
-on: [push, pull_request]
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-      
-      - name: Set up Python
-        uses: actions/setup-python@v3
-        with:
-          python-version: '3.12'
-      
-      - name: Install Dependencies
-        run: |
-          pip install poetry
-          poetry install
-      
-      - name: Run Tests
-        run: |
-          poetry run pytest
-```
 
 ### **7️⃣ Initialize Git and Push Code to GitHub**
 ```sh
@@ -124,10 +98,5 @@ git remote add origin <your-github-repo-url>
 git push -u origin main
 ```
 
-### **8️⃣ Run and Test the Setup**
-```sh
-poetry run python -m src.main  # Run your main script
-```
 
-🚀 **Now your ML project is ready with proper structure, package management, and CI/CD!**
 
