@@ -1,0 +1,59 @@
+.
+├── LICENSE
+├── Netwroksecurity_data
+│   ├── __init__.py
+│   └── netwroksecurity.csv
+├── README.md
+├── my_tree_structure.txt
+├── notebooks
+├── nsp
+│   ├── bin
+│   │   ├── Activate.ps1
+│   │   ├── activate
+│   │   ├── activate.csh
+│   │   ├── activate.fish
+│   │   ├── doesitcache
+│   │   ├── dul-receive-pack
+│   │   ├── dul-upload-pack
+│   │   ├── dulwich
+│   │   ├── f2py
+│   │   ├── findpython
+│   │   ├── httpx
+│   │   ├── keyring
+│   │   ├── normalizer
+│   │   ├── numpy-config
+│   │   ├── pbs-install
+│   │   ├── pip
+│   │   ├── pip3
+│   │   ├── pip3.12
+│   │   ├── pkginfo
+│   │   ├── poetry
+│   │   ├── py.test
+│   │   ├── pyproject-build
+│   │   ├── pytest
+│   │   ├── python -> /home/codespace/.python/current/bin/python
+│   │   ├── python3 -> python
+│   │   ├── python3.12 -> python
+│   │   └── virtualenv
+│   ├── include
+│   │   └── python3.12
+│   ├── lib
+│   │   └── python3.12
+│   ├── lib64 -> lib
+│   └── pyvenv.cfg
+├── poetry.lock
+├── pyproject.toml
+└── src
+    ├── Dockerfile
+    ├── __init_.py
+    ├── cloud
+    ├── components
+    ├── constant
+    ├── entity
+    ├── exception
+    ├── logging
+    ├── pipelines
+    ├── setup.py
+    └── utils
+
+18 directories, 38 files
